@@ -1,0 +1,40 @@
+label{
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+    margin-top: 3rem;
+}
+
+form input, form{
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: black;
+    border-color: rgb(248, 245, 245);
+    color: gray;
+}
+.textArea{
+        background-color: black;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        color: gray;
+        font-size: 1rem;
+    
+}
+.submitBtn:hover{
+    color: rgb(254, 120, 120);
+}
+.me{
+    text-align: center;
+}
+.done{
+    text-align: center;
+    margin-top: 1rem;
+}

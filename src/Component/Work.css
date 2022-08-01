@@ -1,0 +1,24 @@
+
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5rem;
+}
+
+.project-heading {
+    text-align: center;
+    margin-top: 2rem;
+}
+@media(max-width:1200px){
+    .project-container{
+    grid-template-columns: 1fr 1fr;
+
+    }
+}
+@media(max-width:750px){
+    .project-container{
+    grid-template-columns: 1fr;
+
+    }
+}
